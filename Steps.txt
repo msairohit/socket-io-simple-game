@@ -1,0 +1,17 @@
+mkdir socket-io
+cd socket-io
+
+##server steps
+npm init -y
+open package.json and add `"start": "nodemon server.js"` inside scripts
+npm install nodemon socket-io express
+touch server.js
+do coding here
+npm start
+
+##angular app steps
+ng new socket-io-angular
+cd socket-io-angular
+npm install or yarn install
+npm install socket.io-client or yarn add socket.io-client
+ng s
